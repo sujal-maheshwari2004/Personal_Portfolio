@@ -23,7 +23,7 @@ body, html {
     padding: 10px;
     background: var(--background);
     color: var(--text);
-    font-family: var(--regular);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Business Card Styling */
