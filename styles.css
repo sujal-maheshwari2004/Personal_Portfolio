@@ -31,12 +31,15 @@ body, html {
     width: 300px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #ddebf8;
+    color: #2b2839;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
+    border-bottom: 2px solid #d8cefe;
 }
+
 
 .avatar {
     width: 100px;
