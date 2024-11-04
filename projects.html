@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Maheshwari - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional styles specific to projects */
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            width: 100%;
+            background-color: var(--color-card);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 6px solid #d8cefe;
+        }
+
+        .project-title {
+            font-size: 1.5em;
+            color: var(--color-text);
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            color: var(--color-text-light);
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .project-link {
+            color: var(--color-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: var(--color-primary-dark);
+        }
+
+        @media (max-width: 768px) {
+            .projects-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h2 class="project-title">Project Name 1</h2>
+            <p class="project-description">
+                A detailed description of your project goes here. Explain what the project does,
+                its main features, and any significant challenges you overcame.
+            </p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">AWS</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h2 class="project-title">Project Name 2</h2>
+            <p class="project-description">
+                Another project description. Highlight the key aspects of your work
+                and what makes this project unique or interesting.
+            </p>
+            <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Express</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h2 class="project-title">Project Name 3</h2>
+            <p class="project-description">
+                Description of your third project. Focus on the impact and results
+                of your work, as well as any innovative solutions you implemented.
+            </p>
+            <div class="tech-stack">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Google Cloud</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

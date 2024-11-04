@@ -1,23 +1,50 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <div class="card border-blue">
-            <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQGk9HMok6ZL-w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719731066870?e=1736380800&v=beta&t=gr-eBJGnjLSUGpEVV0SQS7IVDkD69HoUXhBC7fEHESQ"
-                alt="Sujal Maheshwari's profile picture"
-                class="avatar border-blue"
-                loading="lazy"
-            />
-            <div class="card-content border-blue">
-                <h3>Sujal Maheshwari</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Maheshwari - Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <main class="card-container">
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQGk9HMok6ZL-w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719731066870?e=1736380800&v=beta&t=gr-eBJGnjLSUGpEVV0SQS7IVDkD69HoUXhBC7fEHESQ"
+                 alt="Sujal Maheshwari's profile picture"
+                 class="avatar"
+                 loading="lazy">
+            <section class="card-content">
+                <h1>Sujal Maheshwari</h1>
                 <p>AI & ML Enthusiast, Technical Team Lead</p>
-                <h4>Aligarh, Uttar Pradesh, India</h4>
+                <p class="location">Aligarh, Uttar Pradesh, India</p>
                 <p>B.Tech in CSE with a focus on Data Science & AI</p>
-                <!-- More Info Button -->
-                <a href="index.html" class="more-info-button">More Info</a>
-            </div>
+            </section>
         </div>
-    </body>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/your-profile" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://leetcode.com/your-profile" target="_blank" class="social-link">
+                <i class="fab fa-leetcode"></i>
+            </a>
+            <a href="https://github.com/your-profile" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://kaggle.com/your-profile" target="_blank" class="social-link">
+                <i class="fab fa-kaggle"></i>
+            </a>
+        </div>
+        <!-- Add the button container below social links -->
+        <div class="button-container">
+            <a href="projects.html" class="action-button">
+                <i class="fas fa-code"></i> Projects
+            </a>
+            <a href="certifications.html" class="action-button">
+                <i class="fas fa-certificate"></i> Certifications
+            </a>
+        </div>
+    </main>
+</body>
 </html>
