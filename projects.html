@@ -71,6 +71,23 @@
             color: var(--color-primary-dark);
         }
 
+        .go-back-btn {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: var(--color-primary);
+            color: white;
+            border-radius: 8px;
+            font-size: 1em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .go-back-btn:hover {
+            background-color: var(--color-primary-dark);
+        }
+
         @media (max-width: 768px) {
             .projects-container {
                 padding: 15px;
@@ -214,6 +231,9 @@
                 </a>
             </div>
         </div>
+
+        <!-- Go Back Button -->
+        <a href="index.html" class="go-back-btn">Go Back to Home</a>
     </main>
 </body>
 </html>
